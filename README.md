@@ -192,4 +192,4 @@ ssh -p 2222 user@127.0.0.1
 * **QXL + SPICE** → better graphics, mouse sync, clipboard sharing.
 * **qcow2** → supports snapshots and compression.
 * **VirtIO** → faster disk and network drivers.
-* **Provision a VM** → with just 4 commands
+* **Create and run a VM** → with just 2 commands
