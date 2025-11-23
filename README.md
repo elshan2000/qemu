@@ -170,7 +170,7 @@ sudo ip tuntap add dev tap0 mode tap user $USER
 Example:
 
 ```bash
--netdev user,id=n0,hostfwd=tcp::2222-:22
+-device virtio-net-pci,netdev=n0  -netdev user,id=n0,hostfwd=tcp::2222-:22
 ```
 
 Maps:
